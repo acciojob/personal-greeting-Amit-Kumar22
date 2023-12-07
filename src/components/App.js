@@ -5,7 +5,7 @@ import './../styles/App.css';
 const App = () => {
   const [text, setText] = useState("")
   function handle(event){
-    setText(event.target.value);
+    setText("Hello "+event.target.value+"!");
   }
   return (
     <div>
